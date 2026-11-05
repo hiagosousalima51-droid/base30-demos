@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEZ — Estúdio de Estética</title>
+  <meta name="description" content="TEZ Estúdio de Estética — protocolos de cuidado facial e corporal, pensados no ritmo da sua pele." />
+
+  <!-- Tipografia: Bodoni Moda (display, editorial) + Work Sans (corpo/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================================================================
+       DADOS DEMONSTRATIVOS
+       Tudo abaixo (WhatsApp, Instagram, endereço, horários, nome da
+       profissional, preços) é fictício. Troque pelos dados reais do
+       cliente antes de publicar. Os pontos de troca estão marcados
+       com comentários "TROCAR:" ao longo do arquivo.
+  ==================================================================== -->
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#topo" class="header__logo">TEZ</a>
+
+      <nav class="header__nav" id="nav">
+        <a href="#tratamentos">Tratamentos</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <!-- TROCAR: número de WhatsApp -->
+      <a href="https://wa.me/5511999999999" class="header__cta" target="_blank" rel="noopener">Agendar</a>
+
+      <button class="header__menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- ============================= HERO ============================= -->
+    <section class="hero">
+      <p class="hero__eyebrow">TEZ&nbsp;&nbsp;—&nbsp;&nbsp;ESTÚDIO&nbsp;DE&nbsp;ESTÉTICA</p>
+
+      <div class="hero__grid">
+        <div class="hero__text">
+          <h1 class="hero__title">Menos pressa.<br>Mais pele.</h1>
+          <p class="hero__subtitle">
+            Protocolos faciais e corporais pensados no ritmo da sua pele —
+            não no relógio. Um espaço pequeno, atendimento individual,
+            sem fórmula pronta.
+          </p>
+          <div class="hero__actions">
+            <a href="https://wa.me/5511999999999" class="btn btn--primary" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+            <a href="#tratamentos" class="btn btn--ghost">Ver tratamentos</a>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <img
+            class="hero__visual-img"
+            src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=1200&amp;q=80&amp;auto=format&amp;fit=crop"
+            alt="Pele com creme aplicado, em tom de cuidado facial suave"
+            loading="lazy"
+          />
+          <svg viewBox="0 0 480 600" class="hero__line" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+            <path class="hero__line-path" d="M 60 40
+              C 180 20, 320 60, 340 160
+              C 360 260, 220 260, 210 340
+              C 200 420, 340 420, 360 500
+              C 375 560, 320 585, 250 580"
+              fill="none" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================== TRATAMENTOS ========================== -->
+    <section class="tratamentos" id="tratamentos">
+      <div class="section-head">
+        <p class="section-head__eyebrow">Tratamentos</p>
+        <h2 class="section-head__title">Um cuidado por vez, <em>não uma lista de procedimentos</em></h2>
+      </div>
+
+      <div class="tratamento-lista">
+
+        <article class="tratamento" data-reveal>
+          <div class="tratamento__visual tratamento__visual--01">
+            <img
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1000&amp;q=80&amp;auto=format&amp;fit=crop"
+              alt="Frasco de produto de cuidado facial ao lado de toalha e flores, em composição minimalista"
+              loading="lazy"
+            />
+          </div>
+          <div class="tratamento__texto">
+            <h3>Limpeza Essencial</h3>
+            <p>Higienização profunda, extração e hidratação em uma sessão pensada para reequilibrar a pele sem agredir.</p>
+            <p class="tratamento__beneficio">Benefício principal: pele visivelmente mais leve e uniforme.</p>
+          </div>
+        </article>
+
+        <article class="tratamento tratamento--invertido" data-reveal>
+          <div class="tratamento__visual tratamento__visual--02">
+            <img
+              src="https://images.unsplash.com/photo-1620733723572-11c53f73a416?w=1000&amp;q=80&amp;auto=format&amp;fit=crop"
+              alt="Toalha enrolada e velas acesas junto a um difusor, ambiente calmo de tratamento"
+              loading="lazy"
+            />
+          </div>
+          <div class="tratamento__texto">
+            <h3>Renovação de Textura</h3>
+            <p>Protocolo de esfoliação e estímulo que trabalha textura e viço, respeitando o tempo de resposta de cada tipo de pele.</p>
+            <p class="tratamento__beneficio">Benefício principal: textura mais macia e aspecto renovado.</p>
+          </div>
+        </article>
+
+        <article class="tratamento" data-reveal>
+          <div class="tratamento__visual tratamento__visual--03">
+            <img
+              src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=1000&amp;q=80&amp;auto=format&amp;fit=crop"
+              alt="Costas de uma pessoa recebendo massagem com pedras quentes, sessão corporal tranquila"
+              loading="lazy"
+            />
+          </div>
+          <div class="tratamento__texto">
+            <h3>Ritual Corporal</h3>
+            <p>Uma sessão mais longa, de corpo inteiro, combinando esfoliação, massagem e hidratação — pensada para desacelerar.</p>
+            <p class="tratamento__beneficio">Benefício principal: pele hidratada e sensação de relaxamento.</p>
+          </div>
+        </article>
+
+        <article class="tratamento tratamento--invertido" data-reveal>
+          <div class="tratamento__visual tratamento__visual--04">
+            <img
+              src="https://images.unsplash.com/photo-1693578538512-fc66f318c833?w=1000&amp;q=80&amp;auto=format&amp;fit=crop"
+              alt="Cadeiras em um ambiente sereno, espaço reservado para conversa antes do atendimento"
+              loading="lazy"
+            />
+          </div>
+          <div class="tratamento__texto">
+            <h3>Protocolo sob Medida</h3>
+            <p>Depois de uma conversa sobre rotina, histórico e objetivos, montamos uma sequência de sessões só sua.</p>
+            <p class="tratamento__beneficio">Benefício principal: um plano que acompanha sua pele ao longo do tempo.</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========================== EXPERIÊNCIA ========================== -->
+    <section class="experiencia" id="experiencia">
+      <img
+        class="experiencia__img"
+        src="https://images.unsplash.com/photo-1630595271375-5073a6c0638b?w=1600&amp;q=80&amp;auto=format&amp;fit=crop"
+        alt="Pessoa em robe claro, sentada em um sofá branco, em um ambiente calmo"
+        loading="lazy"
+      />
+      <svg viewBox="0 0 480 600" class="experiencia__line" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <path d="M 40 560
+          C 140 580, 260 520, 240 420
+          C 220 320, 380 320, 380 220
+          C 380 120, 260 100, 260 40"
+          fill="none" />
+      </svg>
+      <div class="experiencia__conteudo" data-reveal>
+        <p class="section-head__eyebrow section-head__eyebrow--claro">Experiência</p>
+        <p class="experiencia__frase">
+          Aqui, uma hora do seu dia deixa de ser agenda<br class="hide-mobile">
+          e vira tempo seu.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================== SOBRE ============================ -->
+    <section class="sobre" id="sobre">
+      <div class="sobre__visual" data-reveal>
+        <img
+          src="https://images.unsplash.com/photo-1620915789294-c972b1b1af7c?w=900&amp;q=80&amp;auto=format&amp;fit=crop"
+          alt="Mãos segurando um frasco de produto de cuidado com a pele"
+          loading="lazy"
+        />
+      </div>
+      <div class="sobre__texto" data-reveal>
+        <p class="section-head__eyebrow">Sobre</p>
+        <!-- TROCAR: nome da profissional real -->
+        <h2 class="sobre__titulo">Marina Duarte</h2>
+        <p>
+          A TEZ nasceu da vontade de fazer estética de um jeito mais devagar:
+          poucos atendimentos por dia, atenção real a cada pele e nenhum
+          protocolo aplicado só porque "é o que se faz".
+        </p>
+        <p>
+          Cada sessão começa com uma conversa — sobre rotina, sensibilidade,
+          histórico — antes de qualquer procedimento. É esse cuidado
+          individual, mais do que qualquer técnica, que guia o trabalho aqui.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================ CTA FINAL =========================== -->
+    <section class="cta-final">
+      <svg viewBox="0 0 480 600" class="cta-final__line" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+        <path d="M 420 30
+          C 320 60, 340 180, 220 200
+          C 100 220, 100 340, 200 380
+          C 300 420, 260 520, 140 560"
+          fill="none" />
+      </svg>
+      <div class="cta-final__conteudo" data-reveal>
+        <h2 class="cta-final__titulo">Seu tempo começa<br>com um agendamento.</h2>
+        <a href="https://wa.me/5511999999999" class="btn btn--claro" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- ============================= CONTATO ============================ -->
+    <section class="contato" id="contato">
+      <div class="contato__grid">
+        <div class="contato__bloco">
+          <p class="section-head__eyebrow section-head__eyebrow--claro">Contato</p>
+          <h2 class="contato__titulo">Fale com a gente</h2>
+        </div>
+
+        <div class="contato__bloco">
+          <span class="contato__label">WhatsApp</span>
+          <!-- TROCAR: número real -->
+          <a href="https://wa.me/5511999999999" class="contato__valor" target="_blank" rel="noopener">(11) 99999-9999</a>
+        </div>
+
+        <div class="contato__bloco">
+          <span class="contato__label">Instagram</span>
+          <!-- TROCAR: @ real -->
+          <a href="https://instagram.com/tez.estetica" class="contato__valor" target="_blank" rel="noopener">@tez.estetica</a>
+        </div>
+
+        <div class="contato__bloco">
+          <span class="contato__label">Endereço <em>(demonstrativo)</em></span>
+          <!-- TROCAR: endereço real -->
+          <p class="contato__valor">Rua das Palmeiras, 128 — Jardim Europa, São Paulo</p>
+        </div>
+
+        <div class="contato__bloco">
+          <span class="contato__label">Horário <em>(demonstrativo)</em></span>
+          <!-- TROCAR: horário real -->
+          <p class="contato__valor">Terça a sábado, 9h às 18h</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>TEZ Estúdio de Estética — página demonstrativa.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

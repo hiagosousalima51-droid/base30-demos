@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alva Odontologia — Odontologia contemporânea</title>
+<meta name="description" content="Alva Odontologia. Planejamento personalizado, tecnologia e cuidado em cada detalhe do seu sorriso.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;1,9..144,440&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ SVG ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="ic-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></symbol>
+<symbol id="ic-arrow-r" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+<symbol id="ic-tooth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2.2 0-3 1.1-4.4 1.1C6 4.1 4.5 3.4 4 5c-.6 2-.2 4 .4 6.4.5 2 .8 5.5 2.1 7.5.6 1 1.6.9 2-.2.4-1.1.7-3.5 1.5-3.5s1.1 2.4 1.5 3.5c.4 1.1 1.4 1.2 2 .2 1.3-2 1.6-5.5 2.1-7.5.6-2.4 1-4.4.4-6.4-.5-1.6-2-1-3.6-.1C15 4.1 14.2 3 12 3Z"/></symbol>
+<symbol id="ic-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v4M12 16v4M4 12h4M16 12h4M6.5 6.5l2.8 2.8M14.7 14.7l2.8 2.8M17.5 6.5l-2.8 2.8M9.3 14.7l-2.8 2.8"/></symbol>
+<symbol id="ic-align" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8c3-3 13-3 16 0M4 16c3 3 13 3 16 0M4 12h16"/></symbol>
+<symbol id="ic-implant" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8l-1 5H9L8 4Z"/><path d="M11 9v4M13 9v4"/><path d="M9 13h6l-1 8H10l-1-8Z"/></symbol>
+<symbol id="ic-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3Z"/><path d="M9 12l2 2 4-4"/></symbol>
+<symbol id="ic-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/><path d="M8 13c1 2 3 3 4 3s3-1 4-3M9 9h.01M15 9h.01"/></symbol>
+<symbol id="ic-scan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M20 8V5a1 1 0 0 0-1-1h-3M4 16v3a1 1 0 0 0 1 1h3M20 16v3a1 1 0 0 1-1 1h-3M4 12h16"/></symbol>
+<symbol id="ic-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.3-4.3"/></symbol>
+<symbol id="ic-comfort" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14c1.5-2 2.5-2 4 0s2.5 2 4 0 2.5-2 4 0 2.5 2 4 0M6 18h12"/></symbol>
+<symbol id="ic-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.3A2.3 2.3 0 0 1 6.3 4h11.4A2.3 2.3 0 0 1 20 6.3v7.4a2.3 2.3 0 0 1-2.3 2.3H10l-4 3v-3H6.3A2.3 2.3 0 0 1 4 13.7V6.3Z"/><circle cx="9" cy="10" r=".6" fill="currentColor" stroke="none"/><circle cx="12" cy="10" r=".6" fill="currentColor" stroke="none"/><circle cx="15" cy="10" r=".6" fill="currentColor" stroke="none"/></symbol>
+<symbol id="ic-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12Z"/><circle cx="12" cy="9" r="2.4"/></symbol>
+<symbol id="ic-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h3l1.5 4L8 9c1 3 3 5 6 6l2-2.5 4 1.5v3c0 1-1 2-2 2-7 0-14-7-14-14 0-1 1-2 2-2Z"/></symbol>
+<symbol id="ic-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 6.5 8 6 8-6"/></symbol>
+<symbol id="ic-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+<symbol id="ic-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.4-4.1A8 8 0 1 1 8.6 19L4 20Z"/><path d="M8.7 9.3c.2-.6.5-.6.8-.6h.5c.2 0 .4 0 .6.4.2.5.7 1.6.7 1.7.1.1.1.3 0 .4-.1.2-.2.3-.3.4-.1.2-.3.3-.4.5-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1 .2-.2.3-.2.6-.1.2.1 1.5.7 1.8.9.3.1.4.2.5.3.1.2.1.9-.2 1.5-.3.7-1.6 1.3-2.2 1.4-.6.1-1.1.1-3.6-1-2.9-1.2-4.7-4.2-4.9-4.4-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.2Z" fill="currentColor" stroke="none"/></symbol>
+<symbol id="ic-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></symbol>
+</defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header id="site-header">
+  <div class="nav-wrap">
+    <a href="#top" class="logo" aria-label="Alva Odontologia — início">
+      <strong>ALVA</strong>
+      <span>Odontologia</span>
+    </a>
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#top">Início</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#abordagem">Nossa abordagem</a>
+      <a href="#clinica">A clínica</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#contato" class="btn btn-primary">Agendar avaliação</a>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-panel">
+        <span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-panel" id="mobile-panel">
+    <div class="container">
+      <a href="#top">Início</a>
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#abordagem">Nossa abordagem</a>
+      <a href="#clinica">A clínica</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contato" class="btn btn-primary">Agendar avaliação</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-copy" data-reveal>
+      <span class="eyebrow">Odontologia contemporânea</span>
+      <h1>Um sorriso que combina <em>com você.</em></h1>
+      <p class="lede">Odontologia moderna, planejamento personalizado e cuidado em cada detalhe — do primeiro contato ao acompanhamento depois do tratamento.</p>
+      <div class="hero-actions">
+        <a href="#contato" class="btn btn-primary">Agendar avaliação</a>
+        <a href="#tratamentos" class="btn btn-outline">Conhecer tratamentos</a>
+      </div>
+    </div>
+    <div class="hero-visual" data-reveal>
+      <div class="hero-art">
+        <svg viewBox="0 0 480 500" preserveAspectRatio="xMidYMid slice">
+          <circle cx="240" cy="230" r="150" fill="none" stroke="#1F4E4A" stroke-opacity=".16" stroke-width="1"/>
+          <circle cx="240" cy="230" r="105" fill="none" stroke="#1F4E4A" stroke-opacity=".22" stroke-width="1"/>
+          <path d="M100 300c40 55 100 85 140 85s100-30 140-85" fill="none" stroke="#1F4E4A" stroke-width="1.4" stroke-linecap="round" stroke-opacity=".55"/>
+          <path d="M120 250c36 46 84 70 120 70s84-24 120-70" fill="none" stroke="#1F4E4A" stroke-width="1.4" stroke-linecap="round"/>
+          <g stroke="#1F4E4A" stroke-opacity=".35">
+            <circle cx="90" cy="120" r="2.4" fill="#1F4E4A" stroke="none"/>
+            <circle cx="380" cy="150" r="2.4" fill="#1F4E4A" stroke="none"/>
+            <circle cx="410" cy="380" r="2.4" fill="#1F4E4A" stroke="none"/>
+            <circle cx="70" cy="400" r="2.4" fill="#1F4E4A" stroke="none"/>
+          </g>
+        </svg>
+      </div>
+      <div class="hero-tag">Planejamento personalizado</div>
+      <div class="hero-float">
+        <span class="dot"><svg><use href="#ic-comfort"/></svg></span>
+        <span>
+          <strong>Experiência tranquila</strong>
+          <span>Consultas pensadas para o seu conforto</span>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ O QUE VOCÊ DESEJA MUDAR ============ -->
+<section class="section" id="abordagem">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Ponto de partida</span>
+      <h2>O que você deseja mudar no seu sorriso?</h2>
+      <p>Cada pessoa chega até nós com uma necessidade diferente. Encontre o caminho que mais combina com você.</p>
+    </div>
+
+    <div class="desire">
+      <ul class="desire-list" data-reveal>
+        <li class="desire-item" data-target="tr-estetica">
+          <span class="dnum"><svg><use href="#ic-smile"/></svg></span>
+          <span class="txt"><strong>Quero transformar meu sorriso</strong><span>Estética dental</span></span>
+          <span class="go"><svg><use href="#ic-arrow"/></svg></span>
+        </li>
+        <li class="desire-item" data-target="tr-clareamento">
+          <span class="dnum"><svg><use href="#ic-sparkle"/></svg></span>
+          <span class="txt"><strong>Quero dentes mais claros</strong><span>Clareamento</span></span>
+          <span class="go"><svg><use href="#ic-arrow"/></svg></span>
+        </li>
+        <li class="desire-item" data-target="tr-ortodontia">
+          <span class="dnum"><svg><use href="#ic-align"/></svg></span>
+          <span class="txt"><strong>Quero alinhar meus dentes</strong><span>Ortodontia</span></span>
+          <span class="go"><svg><use href="#ic-arrow"/></svg></span>
+        </li>
+        <li class="desire-item" data-target="tr-implantes">
+          <span class="dnum"><svg><use href="#ic-implant"/></svg></span>
+          <span class="txt"><strong>Quero recuperar um dente</strong><span>Implantes</span></span>
+          <span class="go"><svg><use href="#ic-arrow"/></svg></span>
+        </li>
+        <li class="desire-item" data-target="tr-prevencao">
+          <span class="dnum"><svg><use href="#ic-shield"/></svg></span>
+          <span class="txt"><strong>Quero cuidar melhor da minha saúde bucal</strong><span>Prevenção e clínica geral</span></span>
+          <span class="go"><svg><use href="#ic-arrow"/></svg></span>
+        </li>
+      </ul>
+
+      <div class="desire-visual" data-reveal>
+        <svg viewBox="0 0 400 460" preserveAspectRatio="xMidYMid slice">
+          <path d="M-20 340c60 60 140 90 220 90s160-30 220-90" fill="none" stroke="#ffffff" stroke-opacity=".14" stroke-width="1"/>
+          <path d="M-20 260c60 60 140 90 220 90s160-30 220-90" fill="none" stroke="#ffffff" stroke-opacity=".1" stroke-width="1"/>
+          <circle cx="200" cy="140" r="90" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1"/>
+          <circle cx="200" cy="140" r="3" fill="#DEEAE6"/>
+        </svg>
+        <div class="cap">
+          <strong>Um caminho para cada sorriso</strong>
+          <p>Escolha o que faz mais sentido para você — os detalhes ficam com a gente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRATAMENTOS ============ -->
+<section class="section section-soft" id="tratamentos">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Tratamentos</span>
+      <h2>Tratamentos pensados para cada etapa do seu sorriso.</h2>
+      <p>Uma visão geral do que oferecemos — sempre com avaliação individual antes de qualquer indicação.</p>
+    </div>
+
+    <div class="treat-grid" data-reveal>
+
+      <article class="treat-card" id="tr-prevencao">
+        <div class="treat-icon"><svg><use href="#ic-shield"/></svg></div>
+        <h3>Clínica geral</h3>
+        <p>Cuidados essenciais e acompanhamento contínuo da sua saúde bucal.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Consultas de rotina para identificar necessidades cedo, orientação personalizada e uma base sólida para qualquer tratamento futuro.</p></div></div>
+      </article>
+
+      <article class="treat-card" id="tr-limpeza">
+        <div class="treat-icon"><svg><use href="#ic-comfort"/></svg></div>
+        <h3>Limpeza e prevenção</h3>
+        <p>Manutenção regular para preservar a saúde e a beleza do seu sorriso.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Limpezas profissionais e orientações práticas de cuidado diário, adaptadas à sua rotina.</p></div></div>
+      </article>
+
+      <article class="treat-card" id="tr-clareamento">
+        <div class="treat-icon"><svg><use href="#ic-sparkle"/></svg></div>
+        <h3>Clareamento dental</h3>
+        <p>Um sorriso mais claro, com técnicas seguras e acompanhamento próximo.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Avaliamos sua estrutura dental antes de indicar o método mais adequado ao seu caso.</p></div></div>
+      </article>
+
+      <article class="treat-card" id="tr-estetica">
+        <div class="treat-icon"><svg><use href="#ic-smile"/></svg></div>
+        <h3>Estética dental</h3>
+        <p>Harmonização do sorriso respeitando as características naturais de cada pessoa.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Planejamento visual detalhado antes de qualquer intervenção, para que você saiba exatamente o que esperar.</p></div></div>
+      </article>
+
+      <article class="treat-card" id="tr-ortodontia">
+        <div class="treat-icon"><svg><use href="#ic-align"/></svg></div>
+        <h3>Ortodontia</h3>
+        <p>Alinhamento dental com acompanhamento contínuo em cada etapa.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Discutimos as opções disponíveis e o ritmo de tratamento que melhor se encaixa na sua vida.</p></div></div>
+      </article>
+
+      <article class="treat-card" id="tr-implantes">
+        <div class="treat-icon"><svg><use href="#ic-implant"/></svg></div>
+        <h3>Implantes</h3>
+        <p>Recuperação de dentes perdidos com planejamento cuidadoso.</p>
+        <button class="btn-text treat-toggle" aria-expanded="false">Conhecer tratamento <svg><use href="#ic-arrow-r"/></svg></button>
+        <div class="treat-more"><div><p>Cada caso é avaliado individualmente para definir a melhor abordagem antes de qualquer procedimento.</p></div></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ TECNOLOGIA ============ -->
+<section class="section tech">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Tecnologia</span>
+      <h2>Tecnologia que transforma o planejamento.</h2>
+      <p>Utilizamos recursos modernos para tornar o diagnóstico e o planejamento mais precisos, proporcionando uma experiência mais segura e personalizada.</p>
+    </div>
+
+    <div class="tech-grid" data-reveal>
+      <div class="tech-item">
+        <div class="tech-icon"><svg><use href="#ic-scan"/></svg></div>
+        <h3>Planejamento digital</h3>
+        <p>Planejamento cuidadoso antes de cada etapa do tratamento.</p>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><svg><use href="#ic-search"/></svg></div>
+        <h3>Diagnóstico detalhado</h3>
+        <p>Uma análise completa para compreender as necessidades de cada paciente.</p>
+      </div>
+      <div class="tech-item">
+        <div class="tech-icon"><svg><use href="#ic-comfort"/></svg></div>
+        <h3>Experiência confortável</h3>
+        <p>Tecnologia e cuidado trabalhando juntos para tornar a consulta mais tranquila.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ JORNADA ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Como funciona</span>
+      <h2>Seu sorriso começa com uma conversa.</h2>
+      <p>Um caminho simples e transparente, do primeiro encontro ao acompanhamento contínuo.</p>
+    </div>
+
+    <div class="journey-track" data-reveal>
+      <svg class="arc-rule" viewBox="0 0 1000 20" preserveAspectRatio="none" aria-hidden="true"><path d="M0 4c250 30 500 30 1000 0"/></svg>
+      <div class="journey-step">
+        <span class="num"><svg><use href="#ic-chat"/></svg></span>
+        <h3>Avaliação</h3>
+        <p>Conversamos sobre suas necessidades e objetivos.</p>
+      </div>
+      <div class="journey-step">
+        <span class="num"><svg><use href="#ic-scan"/></svg></span>
+        <h3>Planejamento</h3>
+        <p>Definimos juntos o melhor caminho para o seu tratamento.</p>
+      </div>
+      <div class="journey-step">
+        <span class="num"><svg><use href="#ic-tooth"/></svg></span>
+        <h3>Tratamento</h3>
+        <p>Realizamos cada etapa com acompanhamento próximo.</p>
+      </div>
+      <div class="journey-step">
+        <span class="num"><svg><use href="#ic-shield"/></svg></span>
+        <h3>Acompanhamento</h3>
+        <p>Continuamos cuidando do seu sorriso depois do tratamento.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOBRE A PROFISSIONAL ============ -->
+<section class="section section-soft" id="clinica">
+  <div class="container about">
+    <div class="about-avatar" data-reveal>
+      <svg viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="98" fill="none" stroke-dasharray="2 10" stroke-linecap="round"/></svg>
+      <span>MA</span>
+    </div>
+    <div class="about-copy" data-reveal>
+      <span class="eyebrow">A clínica</span>
+      <h2>Cuidar de um sorriso é cuidar de alguém.</h2>
+      <blockquote>"Meu objetivo é tornar cada consulta mais tranquila e cada tratamento mais claro para o paciente. Acredito que bons resultados começam quando existe confiança entre profissional e paciente."</blockquote>
+      <div class="about-name">
+        <strong>Dra. Marina Almeida</strong>
+        <span>Cirurgiã-dentista</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ANTES E DEPOIS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Resultados</span>
+      <h2>Resultados que começam no planejamento.</h2>
+      <p>Alguns exemplos ilustrativos de como um bom planejamento se traduz em resultado.</p>
+    </div>
+
+    <div class="result-grid" data-reveal>
+      <div class="result-card">
+        <div class="result-visual">
+          <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid meet">
+            <path d="M20 150c60 -50 90 30 130 -10s60 -60 130 -20" fill="none" stroke="#C7D6D2" stroke-width="1.4"/>
+            <path d="M20 90c60 40 90 -10 130 20s60 30 130 -10" fill="none" stroke="#1F4E4A" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div class="result-labels"><span>Antes</span><b>Depois</b></div>
+      </div>
+      <div class="result-card">
+        <div class="result-visual">
+          <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid meet">
+            <circle cx="110" cy="120" r="60" fill="none" stroke="#C7D6D2" stroke-width="1.4"/>
+            <circle cx="190" cy="100" r="46" fill="none" stroke="#1F4E4A" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div class="result-labels"><span>Antes</span><b>Depois</b></div>
+      </div>
+      <div class="result-card">
+        <div class="result-visual">
+          <svg viewBox="0 0 300 220" preserveAspectRatio="xMidYMid meet">
+            <path d="M40 60 L120 160 L200 60" fill="none" stroke="#C7D6D2" stroke-width="1.4"/>
+            <path d="M100 60 L180 140 L260 70" fill="none" stroke="#1F4E4A" stroke-width="1.6"/>
+          </svg>
+        </div>
+        <div class="result-labels"><span>Antes</span><b>Depois</b></div>
+      </div>
+    </div>
+
+    <p class="result-note">Imagens meramente ilustrativas. Resultados podem variar de acordo com cada caso.</p>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section section-soft" id="faq">
+  <div class="container">
+    <div class="section-head center" data-reveal>
+      <span class="eyebrow">Perguntas frequentes</span>
+      <h2>Dúvidas antes da primeira consulta?</h2>
+    </div>
+
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-q"><span>Como funciona a primeira avaliação?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Conversamos sobre suas necessidades, observamos sua saúde bucal e explicamos com calma os caminhos possíveis — sem compromisso imediato.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Preciso fazer algum exame antes da consulta?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Não é necessário. Caso algum exame seja útil para o seu caso, indicamos após a avaliação inicial.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Como saber qual tratamento é indicado para mim?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Isso é definido em conjunto, depois da avaliação, considerando suas necessidades, expectativas e rotina.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Quanto tempo dura uma consulta?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Varia conforme o motivo da visita, mas reservamos tempo suficiente para que você não se sinta apressado.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Vocês trabalham com diferentes formas de pagamento?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Sim. Apresentamos as opções disponíveis durante o planejamento do seu tratamento.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>É possível realizar uma avaliação antes de decidir pelo tratamento?</span><span class="plus"></span></button>
+        <div class="faq-a-wrap"><div><p class="faq-a">Sim, e recomendamos. A avaliação é o espaço ideal para tirar dúvidas antes de qualquer decisão.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="cta-final">
+  <div class="container" data-reveal>
+    <span class="eyebrow">Próximo passo</span>
+    <h2>Seu próximo sorriso começa com uma conversa.</h2>
+    <p>Conte o que você procura e descubra quais possibilidades fazem sentido para você.</p>
+    <a class="btn btn-light" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Alva%20Odontologia." target="_blank" rel="noopener">Agendar minha avaliação</a>
+  </div>
+</section>
+
+<!-- ============ CONTATO ============ -->
+<section class="section" id="contato">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Contato</span>
+      <h2>Estamos por perto.</h2>
+      <p>Fale com a gente ou passe na clínica para conhecer o espaço.</p>
+    </div>
+
+    <div class="contact-grid" data-reveal>
+      <div>
+        <div class="contact-list">
+          <div class="contact-row">
+            <span class="ic"><svg><use href="#ic-pin"/></svg></span>
+            <span><strong>Endereço</strong><span>Rua das Flores, 180 — Centro</span></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg><use href="#ic-phone"/></svg></span>
+            <span><strong>Telefone</strong><span>(11) 99999-9999</span></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg><use href="#ic-mail"/></svg></span>
+            <span><strong>E-mail</strong><a href="mailto:contato@alvaodontologia.com">contato@alvaodontologia.com</a></span>
+          </div>
+          <div class="contact-row">
+            <span class="ic"><svg><use href="#ic-clock"/></svg></span>
+            <span><strong>Horários</strong><span>Segunda a sexta: 08:00 — 19:00<br>Sábado: 08:00 — 13:00</span></span>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Alva%20Odontologia." target="_blank" rel="noopener">
+          <svg style="width:17px;height:17px"><use href="#ic-whatsapp"/></svg> Falar pelo WhatsApp
+        </a>
+      </div>
+      <div class="map-frame">
+        <iframe title="Localização — Alva Odontologia" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6533%2C-23.5665%2C-46.6333%2C-23.5505&layer=mapnik"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <strong>ALVA</strong>
+        <span>Odontologia</span>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <a href="#top">Início</a>
+          <a href="#tratamentos">Tratamentos</a>
+          <a href="#clinica">A clínica</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div class="footer-col">
+          <h4>Redes</h4>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><svg><use href="#ic-instagram"/></svg></a>
+            <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp"><svg><use href="#ic-whatsapp"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Alva Odontologia. Todos os direitos reservados.</span>
+      <span>Site demonstrativo — clínica fictícia.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

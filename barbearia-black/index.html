@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barbearia Black — Cortes precisos, barba impecável</title>
+<meta name="description" content="Barbearia Black. Cortes precisos, barba impecável e uma experiência feita para você. Agende seu horário.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#inicio" class="logo">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20" cy="20" r="18.5" stroke="currentColor" stroke-width="1"/>
+          <path d="M12 14L28 26M28 14L12 26" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+          <circle cx="12" cy="14" r="1.6" fill="currentColor"/>
+          <circle cx="12" cy="26" r="1.6" fill="currentColor"/>
+        </svg>
+      </span>
+      <span class="logo-text">BARBEARIA<em>BLACK</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio" class="nav-link">Início</a>
+      <a href="#servicos" class="nav-link">Serviços</a>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#galeria" class="nav-link">Galeria</a>
+      <a href="#avaliacoes" class="nav-link">Avaliações</a>
+      <a href="#localizacao" class="nav-link nav-link--mobile-only">Localização</a>
+    </nav>
+
+    <a href="#" class="btn btn-gold btn-sm header-cta whatsapp-btn"
+       data-service="">Agendar horário</a>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="inicio">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+
+    <div class="hero-copy reveal">
+      <p class="eyebrow"><span class="razor-line"></span>Barbearia premium</p>
+      <h1 class="hero-title">Seu estilo<br>começa <em>na cadeira.</em></h1>
+      <p class="hero-sub">Cortes precisos, barba impecável e uma experiência feita para você.</p>
+
+      <div class="hero-actions">
+        <a href="#" class="btn btn-gold whatsapp-btn" data-service="">Agendar horário</a>
+        <a href="#servicos" class="btn btn-ghost">Conhecer serviços</a>
+      </div>
+
+      <div class="hero-rating">
+        <span class="hero-rating-text">Hora marcada. Sem correria, sem filas.</span>
+      </div>
+    </div>
+
+    <div class="hero-art reveal reveal--delay-1" aria-hidden="true">
+      <div class="hero-art-frame">
+        <svg viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg" class="hero-svg">
+          <!-- barber chair line art -->
+          <ellipse cx="200" cy="440" rx="140" ry="10" fill="#c9a24d" opacity="0.08"/>
+          <path d="M120 420 L120 300 Q120 280 140 280 L260 280 Q280 280 280 300 L280 420" stroke="#c9a24d" stroke-width="1.2" opacity="0.9"/>
+          <path d="M110 420 L290 420" stroke="#c9a24d" stroke-width="1.2"/>
+          <path d="M130 420 L130 460 M270 420 L270 460" stroke="#c9a24d" stroke-width="1.2"/>
+          <path d="M150 280 L150 200 Q150 180 170 180 L230 180 Q250 180 250 200 L250 280" stroke="#c9a24d" stroke-width="1.2"/>
+          <path d="M150 220 L250 220" stroke="#c9a24d" stroke-width="1" opacity="0.6"/>
+          <circle cx="200" cy="150" r="34" stroke="#c9a24d" stroke-width="1.2"/>
+          <path d="M186 150 Q200 132 214 150 Q200 168 186 150 Z" stroke="#e9d19c" stroke-width="1"/>
+          <path d="M60 90 L340 90" stroke="#c9a24d" stroke-width="0.6" stroke-dasharray="2 6" opacity="0.5"/>
+          <path d="M90 60 L110 100 M310 60 L290 100" stroke="#c9a24d" stroke-width="1" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="hero-badge">
+        <span class="hero-badge-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 6a2 2 0 0 1 2-3z" stroke="#c9a24d" stroke-width="1.1"/></svg>
+        </span>
+        <span class="hero-badge-label">Agende em<br>uma mensagem</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVIÇOS ===================== -->
+<section class="section" id="servicos">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="razor-line"></span>O que oferecemos</p>
+      <h2 class="section-title">Serviços</h2>
+    </div>
+
+    <div class="services-grid">
+
+      <article class="ticket reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Corte Masculino</h3>
+          <span class="ticket-price">R$ 45</span>
+        </div>
+        <p class="ticket-desc">Corte sob medida para o seu formato de rosto, finalizado na navalha.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Corte Masculino">Agendar</a>
+      </article>
+
+      <article class="ticket reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Corte + Barba</h3>
+          <span class="ticket-price">R$ 70</span>
+        </div>
+        <p class="ticket-desc">O combo completo: corte impecável e barba desenhada com precisão.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Corte + Barba">Agendar</a>
+      </article>
+
+      <article class="ticket reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Barba</h3>
+          <span class="ticket-price">R$ 35</span>
+        </div>
+        <p class="ticket-desc">Toalha quente, navalha e acabamento que muda a expressão do rosto.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Barba">Agendar</a>
+      </article>
+
+      <article class="ticket reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Corte + Sobrancelha</h3>
+          <span class="ticket-price">R$ 55</span>
+        </div>
+        <p class="ticket-desc">Corte completo com design de sobrancelha para um visual mais limpo.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Corte + Sobrancelha">Agendar</a>
+      </article>
+
+      <article class="ticket ticket--gold reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Platinado</h3>
+          <span class="ticket-price">R$ 120</span>
+        </div>
+        <p class="ticket-desc">Descoloração e tonalização profissional, do jeito que só um cabeleireiro faz.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Platinado">Agendar</a>
+      </article>
+
+      <article class="ticket reveal">
+        <div class="ticket-top">
+          <h3 class="ticket-name">Combo Black</h3>
+          <span class="ticket-price">R$ 90</span>
+        </div>
+        <p class="ticket-desc">Corte, barba e sobrancelha — a experiência completa da casa.</p>
+        <div class="ticket-divider"></div>
+        <a href="#" class="btn btn-outline btn-sm whatsapp-btn" data-service="Combo Black">Agendar</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOBRE ===================== -->
+<section class="section section--alt" id="sobre">
+  <div class="container about-grid">
+
+    <div class="about-art reveal" aria-hidden="true">
+      <div class="about-frame">
+        <span class="about-monogram">BB</span>
+        <div class="about-frame-dots"></div>
+      </div>
+    </div>
+
+    <div class="about-copy reveal reveal--delay-1">
+      <p class="eyebrow"><span class="razor-line"></span>Nossa história</p>
+      <h2 class="section-title">Sobre a Barbearia Black</h2>
+      <p class="about-lead">A Barbearia Black nasceu com uma ideia simples: transformar o corte de cabelo em uma experiência.</p>
+      <p class="about-text">Mais do que cortar cabelo, cuidamos de detalhes: o ambiente é pensado para relaxar, o atendimento é atencioso do início ao fim, e cada profissional é treinado para entender o que combina com você — não apenas o que está na moda. Usamos produtos de qualidade e técnicas atualizadas para garantir um resultado que dura muito além da saída da cadeira.</p>
+
+      <div class="about-features">
+        <div class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 10h11v4a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-4z" stroke="#c9a24d" stroke-width="1.1"/><path d="M16 11h1.5a2 2 0 0 1 0 4H16" stroke="#c9a24d" stroke-width="1.1"/><path d="M8 6c0-1 1-1 1-2M11 6c0-1 1-1 1-2" stroke="#c9a24d" stroke-width="1" stroke-linecap="round"/></svg>
+          </span>
+          <span class="feature-label">Ambiente<br>pensado pra relaxar</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#c9a24d" stroke-width="1.1"/><path d="M12 7v5l3.5 2" stroke="#c9a24d" stroke-width="1.1" stroke-linecap="round"/></svg>
+          </span>
+          <span class="feature-label">Atendimento<br>com hora marcada</span>
+        </div>
+        <div class="feature">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="9" r="5" stroke="#c9a24d" stroke-width="1.1"/><path d="M9 13.5L7.5 20l4.5-2.5L16.5 20 15 13.5" stroke="#c9a24d" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="feature-label">Profissionais<br>especializados</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== GALERIA ===================== -->
+<section class="section" id="galeria">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="razor-line"></span>Nosso trabalho</p>
+      <h2 class="section-title">Galeria</h2>
+    </div>
+
+    <div class="gallery-grid">
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><path d="M15 15 L45 45 M45 15 L15 45" stroke="#c9a24d" stroke-width="1.3" stroke-linecap="round"/><circle cx="15" cy="15" r="4.5" stroke="#c9a24d" stroke-width="1.1"/><circle cx="15" cy="45" r="4.5" stroke="#c9a24d" stroke-width="1.1"/></svg>
+        </div>
+        <figcaption>Cortes de precisão</figcaption>
+      </figure>
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><path d="M12 40 Q30 10 48 40 Q30 34 12 40Z" stroke="#c9a24d" stroke-width="1.2"/><path d="M18 40 L20 48 M42 40 L40 48" stroke="#c9a24d" stroke-width="1"/></svg>
+        </div>
+        <figcaption>Barba desenhada</figcaption>
+      </figure>
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><rect x="14" y="24" width="32" height="6" rx="2" stroke="#c9a24d" stroke-width="1"/><path d="M17 24 L17 18 M22 24 L22 16 M27 24 L27 18 M32 24 L32 16 M37 24 L37 18 M42 24 L42 16" stroke="#c9a24d" stroke-width="0.9"/></svg>
+        </div>
+        <figcaption>Ambiente da casa</figcaption>
+      </figure>
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><rect x="18" y="14" width="24" height="32" rx="3" stroke="#c9a24d" stroke-width="1.1"/><circle cx="30" cy="30" r="7" stroke="#e9d19c" stroke-width="0.9"/></svg>
+        </div>
+        <figcaption>Acabamento na navalha</figcaption>
+      </figure>
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><path d="M30 12 L30 48 M18 20 L42 20 M18 40 L42 40" stroke="#c9a24d" stroke-width="1.1"/></svg>
+        </div>
+        <figcaption>Estilos personalizados</figcaption>
+      </figure>
+
+      <figure class="gallery-item reveal">
+        <div class="gallery-visual">
+          <svg viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="16" stroke="#c9a24d" stroke-width="1.1"/><circle cx="30" cy="30" r="3" fill="#c9a24d"/></svg>
+        </div>
+        <figcaption>Atenção aos detalhes</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== AVALIAÇÕES ===================== -->
+<section class="section section--alt" id="avaliacoes">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow"><span class="razor-line"></span>Quem já passou pela cadeira</p>
+      <h2 class="section-title">Avaliações</h2>
+    </div>
+
+    <div class="reviews-grid">
+
+      <blockquote class="review-card reveal">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p class="review-text">"Melhor corte que já fiz. Atendimento excelente e ambiente muito bom."</p>
+        <cite class="review-author">Lucas Martins</cite>
+      </blockquote>
+
+      <blockquote class="review-card reveal reveal--delay-1">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p class="review-text">"Os caras realmente entendem de corte e barba. Recomendo demais."</p>
+        <cite class="review-author">Rafael Souza</cite>
+      </blockquote>
+
+      <blockquote class="review-card reveal reveal--delay-2">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <p class="review-text">"Ambiente top e atendimento impecável."</p>
+        <cite class="review-author">Gabriel Oliveira</cite>
+      </blockquote>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CTA ===================== -->
+<section class="cta-band">
+  <div class="container cta-inner reveal">
+    <h2 class="cta-title">Pronto para renovar o visual?</h2>
+    <p class="cta-sub">Escolha seu horário e deixe o resto com a gente.</p>
+    <a href="#" class="btn btn-black whatsapp-btn" data-service="">
+      <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.02 2.003c-5.514 0-9.984 4.471-9.984 9.984 0 1.76.462 3.484 1.34 5.001L2 22l5.146-1.35a9.947 9.947 0 0 0 4.874 1.24h.004c5.514 0 9.984-4.47 9.984-9.984 0-2.667-1.037-5.174-2.925-7.062A9.935 9.935 0 0 0 12.02 2.003zm5.878 15.847c-.246.696-1.44 1.343-1.99 1.396-.53.053-1.166.078-1.869.05-1.032-.043-2.045-.36-3.116-.833-2.755-1.221-4.55-4.013-4.69-4.202-.14-.19-1.132-1.507-1.132-2.876 0-1.37.72-2.043.976-2.32a1.006 1.006 0 0 1 .719-.336c.181 0 .362.002.52.01.166.008.39-.063.61.464l.784 1.876c.075.176.126.38.023.605-.098.22-.15.352-.297.542-.15.19-.316.424-.45.57-.15.163-.307.34-.132.667.174.327.774 1.279 1.663 2.072 1.144 1.02 2.108 1.336 2.435 1.485.327.15.52.126.712-.075.198-.198.847-.985 1.075-1.324.223-.34.446-.28.75-.169.31.113 1.964.925 2.302 1.094.339.168.564.253.646.396.083.145.083.828-.163 1.524z"/></svg>
+      Agendar pelo WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ===================== LOCALIZAÇÃO ===================== -->
+<section class="section" id="localizacao">
+  <div class="container location-grid">
+
+    <div class="location-info reveal">
+      <p class="eyebrow"><span class="razor-line"></span>Onde estamos</p>
+      <h2 class="section-title">Localização</h2>
+
+      <ul class="location-list">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z" stroke="#c9a24d" stroke-width="1.2"/><circle cx="12" cy="10" r="2.5" stroke="#c9a24d" stroke-width="1.1"/></svg>
+          <span>Rua das Palmeiras, 245 — Centro</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6 3h3l2 5-2.5 1.5a11 11 0 0 0 5 5L15 12l5 2v3a2 2 0 0 1-2 2C10.5 19 5 13.5 5 6a2 2 0 0 1 2-3z" stroke="#c9a24d" stroke-width="1.1"/></svg>
+          <span>(11) 99999-9999</span>
+        </li>
+      </ul>
+
+      <div class="hours-table">
+        <div class="hours-row"><span>Segunda a sexta</span><span>09:00 às 20:00</span></div>
+        <div class="hours-row"><span>Sábado</span><span>09:00 às 18:00</span></div>
+        <div class="hours-row"><span>Domingo</span><span class="hours-closed">Fechado</span></div>
+      </div>
+    </div>
+
+    <div class="location-map reveal reveal--delay-1" aria-hidden="true">
+      <div class="map-card">
+        <div class="map-grid"></div>
+        <div class="map-pin">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z" fill="#c9a24d"/><circle cx="12" cy="10" r="2.5" fill="#0a0a09"/></svg>
+        </div>
+        <span class="map-label">Rua das Palmeiras, 245</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+      <span class="logo-text logo-text--footer">BARBEARIA<em>BLACK</em></span>
+      <p class="footer-tagline">Cortes precisos, barba impecável e uma experiência feita para você.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram" class="social-icon">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.2"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="#" class="whatsapp-btn social-icon" aria-label="WhatsApp" data-service="">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.02 2.003c-5.514 0-9.984 4.471-9.984 9.984 0 1.76.462 3.484 1.34 5.001L2 22l5.146-1.35a9.947 9.947 0 0 0 4.874 1.24h.004c5.514 0 9.984-4.47 9.984-9.984 0-2.667-1.037-5.174-2.925-7.062A9.935 9.935 0 0 0 12.02 2.003z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links rápidos</h4>
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#avaliacoes">Avaliações</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <span>Rua das Palmeiras, 245 — Centro</span>
+      <span>(11) 99999-9999</span>
+      <span>seg–sex 09h–20h · sáb 09h–18h</span>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; 2026 Barbearia Black. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
