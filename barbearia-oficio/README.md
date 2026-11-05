@@ -1,5 +1,6 @@
 # Barbearia Ofício
 
-Demonstração de landing page estática para barbearia.
+Demonstração de página estática em HTML, CSS e JavaScript. Abra `index.html` no navegador para visualizar localmente.
 
-[Ver site publicado](https://barbe-demo-delta.vercel.app/)
+- [Site publicado](https://barbe-demo-delta.vercel.app/)
+- [Repositório de origem preservado](https://github.com/hiagosousalima51-droid/barbe-demo)
